@@ -1,0 +1,40 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Light-gray);
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+}
+.mainDiv div{
+    background-color: var(--White);
+    height: 650px;
+    width: 400px;
+    border-radius: 6px;
+}
+.mainDiv div img{
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    width: 95%;
+    /* margin-left: 20px; */
+}
+.mainDiv div h3{
+    font-weight: bold;
+    color: var(--Dark-blue);
+    text-align: center;
+    width: auto;
+}
+.mainDiv div p{
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+}
